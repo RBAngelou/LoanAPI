@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Api.Loans/Api.Loans/obj/Container
+/Api.Loans/Api.Loans/obj
+/Api.Loans/.vs/Api.Loans
+/Api.Loans/obj/Docker

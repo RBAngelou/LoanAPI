@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  api.loans:
+    image: ${DOCKER_REGISTRY-}apiloans
+    build:
+      context: .
+      dockerfile: Api.Loans/Dockerfile
+  loandb:
+    image: redis:alpine
